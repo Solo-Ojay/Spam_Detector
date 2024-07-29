@@ -49,4 +49,4 @@ if st.button("Predict", key='predict_button', help='Click to predict'):
 if st.button("Clear", key='clear_button', help='Click to clear input'):
     st.session_state.input_message = ''
     st.session_state.prediction = ''
-    st.rerun()
+    st.experimental_rerun()
